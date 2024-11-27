@@ -1,0 +1,14 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "start": "cd web && npm start",
+    "build": "cd web && npm run build",
+    "test": "cd web && npm test",
+    "install:web": "cd web && npm install"
+  }
+} 
